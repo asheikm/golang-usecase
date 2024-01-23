@@ -1,0 +1,8 @@
+{
+  "lastfm_user": "",
+  "lastfm_api_key": "",
+  "musixmatch_api_key": "",
+  "default_region": "us",
+  "lastfm_api_url": "https://ws.audioscrobbler.com/2.0/?method=geo.gettoptracks&country=%s&api_key=%s&format=json",
+  "musixmatch_api_url": "https://api.musixmatch.com/ws/1.1/"
+}
