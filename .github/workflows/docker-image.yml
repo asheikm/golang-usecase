@@ -15,4 +15,4 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - name: Build the Docker image
-      run: docker build . --file Dockerfile --tag myfavartist:$(date +%s)
+      run: cd myfavartist; docker build . --file Dockerfile --tag myfavartist:$(date +%s)
